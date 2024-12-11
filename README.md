@@ -29,6 +29,8 @@ The returned result from the UDAF is a struct containing two values: the mode an
 |-- .vscode/                                                 # Visual Studio Code configuration
 ```
 
+Note: I placed all of these files in the same folder on my machine.
+
 ---
 
 ## Requirements
@@ -60,7 +62,7 @@ The returned result from the UDAF is a struct containing two values: the mode an
 4. The JAR file will be generated in the `target/scala-2.12/` directory.
 
 ### 2. Upload Files to S3
-1. Upload the compiled JAR file and the Python script (`scripts/run.py`) to an S3 bucket.
+1. Upload the compiled JAR file (modefrequencyudaf_2.12-0.1.jar) and the Python script (`run.py`) to an S3 bucket (s3://sharadhakasi/extracredit/).
 2. Note the S3 URI paths for use in EMR configurations.
 
 ### 3. Python Script Configuration
