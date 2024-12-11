@@ -113,7 +113,7 @@ The output will be:
 ---
 
 ## Explanation Video
-A demonstration video explaining the project, the Scala code, Python script, and the EMR deployment process is available [here](#).
+A demonstration video explaining the project, the Scala code, Python script, and the EMR step process is available [here](https://drive.google.com/file/d/19vOuRwjNWj2TASPIgK93nr1P17KdR42c/view?usp=sharing).
 
 ---
 
@@ -121,6 +121,11 @@ A demonstration video explaining the project, the Scala code, Python script, and
 1. **Scala-Python Integration**: The UDAF, implemented in Scala, integrates seamlessly with Python using PySpark.
 2. **Scalability**: Running the UDAF on EMR ensures it can handle large datasets efficiently.
 3. **Dynamic Configuration**: The script is portable across environments by dynamically specifying paths to the JAR file.
+
+---
+
+## Conclusion
+This task demonstrates how to extend Spark’s functionality by creating a custom UDAF in Scala, integrating it with Python, and deploying it on EMR for scalable processing. The workflow involved writing the UDAF, compiling it into a JAR, linking it with PySpark, and running it on a distributed cluster. This project highlights the power of combining Spark, Scala, and Python for advanced data processing tasks.
 
 ---
 
