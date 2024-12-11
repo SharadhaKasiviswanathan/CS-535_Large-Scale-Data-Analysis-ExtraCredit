@@ -74,7 +74,7 @@ The Python script demonstrates how to use/glue the Scala UDAF in PySpark.
 
 ### 4. Deploy to EMR
 1. Configure and start an EMR cluster with Spark installed.
-2. Alternatively, use the `extra_emr.py` script to configure and run the job flow programmatically. Use the provided `extra_emr.py` to dynamically configure and launch the EMR job for maximum reusability.
+2. Alternatively, use the `extra_emr.py` script to configure and run the job flow programmatically. Use the provided `extra_emr.py` to dynamically configure and launch the EMR job for maximum reusability. Run this command:
    ```bash
    python extra_emr.py
    ```
