@@ -1,0 +1,6 @@
+10 points - code & submission quality
+45 points - mode aggregation functionality
+15 points - Python test script
+20 points - demonstration video
+Total points: 90/90
+This is exactly what I wanted to see, good job!
